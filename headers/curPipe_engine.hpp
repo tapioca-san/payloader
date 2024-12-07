@@ -3,7 +3,6 @@
 #include "curPipe_config.hpp"
 #include "curPipe_callBack.hpp"
 #include "curPipe_functions.hpp"
-#include "curPipe_discordBot.hpp"
 #include "curPipe_textFunction.hpp"
 #include <dpp/cluster.h>
 
@@ -14,7 +13,8 @@ namespace curPipe {
 
         private:
 
-	
+        bool deBugger;
+        std::string cleanedMensage;
         dpp::cluster bot;
 
         public:

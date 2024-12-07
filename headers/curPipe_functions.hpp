@@ -14,5 +14,8 @@ namespace curPipe {
 
     void openFiles(std::string nameOfFiles);
 
-
+    void MensageFromSite(std::string site);
+    
+    std::string readFiles(std::string fileLocate);
+    
 }

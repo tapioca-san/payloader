@@ -7,5 +7,8 @@ namespace curPipe {
 
     std::string cleanWordsOnString(std::string mensageContent, std::string phraseToClean, bool is_url = false);
 
+    std::string getExtensionOfFile(std::string nameOfFile);
+
+    std::string findWhichExtension();
 
 }
